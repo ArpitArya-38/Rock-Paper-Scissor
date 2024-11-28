@@ -33,7 +33,6 @@
     margin-top: 1rem; */ 
    display:grid;
    grid-template-columns:1fr 1fr 1fr;
-   grid-gap:2px;
 }
 
 .img{
@@ -45,14 +44,14 @@
 
 #img1{
     margin:1rem auto;
-    margin-right:-7rem;
+    /* margin-right:-7rm; */
 }
 #img2{
     margin:1rem auto;
 }
 #img3{
     margin:1rem auto;
-    margin-left:-7rem;
+    /* margin-left:-7rem; */
 }
 
 .img:hover{
@@ -84,4 +83,13 @@
 
 #cprog{
     margin-left:0.5rem;
+}
+
+@media only screen and (min-width:800px){
+    #img1{
+        margin-right:-7rem;
+    }
+    #img3{
+        margin-left:-7rem;
+    }
 }
